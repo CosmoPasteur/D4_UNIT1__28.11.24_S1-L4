@@ -1,6 +1,36 @@
 /* IMPOSTAZIONI GENERALI */
-
+body {
+  background-image: url("/assets/img/sfondo.png");
+  margin: 15px;
+}
 /* HEADER */
+header {
+  background-color: blue;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  margin-top: 10px; /* Spazio sopra il menu */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centra gli elementi della lista */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
 /* MAIN */
 
